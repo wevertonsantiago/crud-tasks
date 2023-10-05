@@ -25,3 +25,6 @@ alterar em "*src/server.ts*" linha 8 "*const port*".<br><br>
 
 2-Agora é necessário executar o simulador/device android, no terminal digital "*yarn android*"<br>
 (Se tiver no Windows é necessário abrir/executar primeiro o emulador antes de colocar o comando "*yarn android*")
+
+# Video demonstração do projeto.
+Link do Youtube: https://youtu.be/gs_h1vMGmoE
