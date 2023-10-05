@@ -6,7 +6,7 @@ Client: Criando com React Native CLI, Typescript, Context Api, React Navigation,
 
 Para esse projeto é recomendo usar o "*yarn*" como gerenciador de dependências.
 
-# Client como utlizar:
+# Server como utlizar passo a passo:
 Se for necessário trocar o número da porta, alterar em "*src/server.ts*" linha 8 "*const port*".<br><br>
 1-Abrir a pasta dentro de um terminar e utilizar "*yarn install*" para fazer o download das dependências.
 
@@ -17,3 +17,11 @@ Se for necessário trocar o número da porta, alterar em "*src/server.ts*" linha
 (Se a tabela SQLite estiver vazia, irá ser criado automaticamente dados de 01 até 30) 
 
 4-Se tudo der certo, é para aperecer no terminal a seguinte mensagem "*Servidor Online! http://localhost:4000*".
+
+# Client como utlizar passo a passo:
+Se alterou a porta do projeto Server, é necessário trocar o número da porta em Client também vá em "*src/Services/ApiService*" linha 4 BaseURL, 
+alterar em "*src/server.ts*" linha 8 "*const port*".<br><br>
+1-Abrir a pasta dentro de um terminar e utilizar "*yarn install*" para fazer o download das dependências.
+
+2-Agora é necessário executar o simulador/device android, no terminal digital "*yarn android*"<br>
+(Se tiver no Windows é necessário abrir/executar primeiro o emulador antes de colocar o comando "*yarn android*")
