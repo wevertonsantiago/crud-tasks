@@ -1,6 +1,8 @@
 # Notas:
 Os arquivos que fiz o codigo estão na pasta "*src*",
-tanto no projeto client e server.
+tanto no projeto client e server.<br><br>
+Server: Criando com Node.js, Typescript, Express, ORM Prisma. Estrutura MVC.<br><br>
+Client: Criando com React Native CLI, Typescript, Context Api, React Navigation, Axios, React query... Estrutura MVVM.<br>
 
 Para esse projeto é recomendo usar o "*yarn*" como gerenciador de dependências.
 
